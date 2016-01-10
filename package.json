@@ -1,0 +1,23 @@
+{
+  "name": "open-dsd-notifications",
+  "main": "app.js",
+  "dependencies": {
+    "agentkeepalive": "^2.0.2",
+    "body-parser": "~1.0.1",
+    "expect.js": "0.3.1",
+    "express": "~4.0.0",
+    "lodash": "~3.9.3",
+    "mocha": "2.0.1",
+    "request": "^2.58.0",
+    "superagent": "0.20.0",
+    "xml2js": "^0.4.15"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha app.test.js --timeout 90000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/opensandiego/open-dsd-notifications.git"
+  }
+}
